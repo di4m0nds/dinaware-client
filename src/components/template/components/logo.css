@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+.logoSection{
+ position: relative;
+ display: flex;
+ width: 100%;
+}
+
+.logoSection > div > img {
+  margin-top: 15px;
+  width: 100px;
+  height: auto;
+}
+@media (max-width: 1630px) {
+  .logoSection{
+    left: 250%;
+  }
+  
+  .logoSection > div > img {
+    width: 100px;
+  }
+}
+@media (max-width: 1580px) {
+  .logoSection{
+    left: 370%;
+  }
+}
+@media (max-width: 680px) {
+  .logoSection{
+    left: 50%;
+  }
+}
+
+.logoSection > .logoTitle{
+  position: absolute;
+  left: 100px;
+  width: 200px;
+  margin-top: 15px;
+  font-size: 250%;
+  font-family: 'EB Garamond', serif;
+}
+.logoSection > .logoTitle > .subtitle{
+  position: absolute;
+  top: 25px;
+  color: black;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+
+.logoSection > .logoTitle > a {
+  color: black;
+}

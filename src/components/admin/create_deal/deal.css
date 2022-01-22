@@ -1,0 +1,76 @@
+.btn {
+  outline: none;
+}
+
+.deal-container {
+  margin: 50px 80px;
+}
+.deal-container_title h2 {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.deal-container_content{
+  display: flex;
+  flex-direction: row; 
+  margin-top: 80px;
+}
+
+.deal-container_content-title {
+  flex: 1;
+  text-align: left;
+}
+
+.deal-container_content-title strong {
+  margin-left: 30px;
+}
+
+.showProducts {
+  margin: 5px;
+  padding: 10px;
+
+  background: rgba(255, 255, 255, 0.466);
+  border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.showProducts:hover {
+  background: rgba(231, 231, 231, 0.466);
+}
+
+.btn-delete {
+  margin: 100px 0 0 0;
+}
+
+.scale-up-ver-top {
+	-webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes scale-up-ver-top {
+  0% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+}
+@keyframes scale-up-ver-top {
+  0% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+}

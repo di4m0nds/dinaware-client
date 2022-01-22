@@ -1,0 +1,51 @@
+.headerSection {
+  background-color: white;
+  width: 100%;
+  height: 110px;
+}
+
+.headerSection > .headerComponent{
+  display: flex;
+  position: relative;
+}
+
+.headerSection > .headerComponent > .logoComponent{
+  display: block;
+  position: absolute;
+  left: 20%;
+}
+
+.headerSection > .headerComponent > .navBarComponent{
+  display: block;
+  position: absolute;
+  right: 60%;
+}
+
+
+@media (max-width: 1630px) {
+  .headerSection > .headerComponent{
+    display: block;
+  }
+
+  .headerSection > .headerComponent > .logoComponent{
+    position: absolute;
+  }
+  
+  .headerSection > .headerComponent > .navBarComponent{
+    position: absolute;
+    left: 5%;
+  }
+}
+
+
+@media (max-width: 1630px) {
+  .headerSection > .headerComponent > .logoComponent{
+    position: absolute;
+    left: 10%;
+  }
+  
+  .headerSection > .headerComponent > .navBarComponent{
+    position: absolute;
+    left: 0;
+  }
+}

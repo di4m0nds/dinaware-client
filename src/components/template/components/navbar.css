@@ -1,0 +1,94 @@
+.navbarSection{
+  position: fixed;
+  top: 15px;
+  width: 55%;
+  color: white;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  background: #F03232;
+  opacity: 95%;
+  border-radius: 6px;
+  z-index: 50;
+}
+
+@media (max-width: 1630px) {
+  .navbarSection {
+    top: 80px;
+    opacity: 1;
+    width: 100%;
+  }
+}
+
+.hanldeClearProductsOfCart {
+  cursor: pointer; 
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.navbarSection > div > .links > .links-ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbarSection > div > .links > .links-ul > .links-li > a{
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+.navbarSection > div > .links > .links-ul > .links-li > a:hover{
+  color: black;
+}
+
+.navbarSection > .search > form {
+  position: relative;
+}
+/*---------------------------------------*/
+
+input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+  border-bottom: 1px solid gray !important;
+  box-shadow: none !important;
+}
+.navbarSection > .search > form > .inputSearch{
+ margin-top: 4px;
+ padding: 0 20px 0 30px;
+ width: 520px;
+ background: white;
+ border-radius: 50px 5px 5px 5px;
+}
+.autocomplete-content > li > span{
+  color: black !important;
+}
+.autocomplete-content > li > span > span{
+  color: red !important;
+}
+
+/*---------------------------------------*/
+.navbarSection > .search > form > button{
+ position: absolute;
+ top: 17px;
+ right: 0px;
+ color: gray;
+ border: none;
+ background: transparent;
+ cursor: pointer;
+}
+
+.navbarSection > div > button {
+  position: relative;
+}
+.navbarSection > div > button {
+  margin-top: 10px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.navbarSection > div > button:hover {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: black;
+}
+.navbarSection > div > button > .numberCart {
+  position: absolute;
+  left: 65%;
+  top: 40%;
+}

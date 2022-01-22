@@ -1,0 +1,159 @@
+.listProducts {
+  display: flex;
+}
+
+.card{
+  height: 550px;
+  position: relative;
+}
+
+.cardProduct > .card-image > img{
+  height: 280px;
+  width: auto;
+  /*height:  auto;*/
+}
+
+.Tilt > a{
+  position: relative;
+  width: 80%;
+  margin-top: 15px;
+  background-color: #CD4040;
+}
+
+.Tilt > a:hover{
+  background-color: #CD4040;
+}
+
+.btnDetails{
+  margin-top: 10px;
+}
+
+.btnAddCart {
+  font-weight: 900;
+}
+
+.card-content > div > a {
+  background-color: black;
+  font-weight: 900;
+  transition: .2s;
+}
+.card-content > div > a:hover {
+  color: black;
+  background-color: white;
+}
+
+@media (max-width: 1400px) {
+  .Tilt > a{
+    width: 60%;
+  }
+}
+
+.priceProductCard {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.iva {
+  color: gray;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.text-stock {
+  padding: 0;
+  margin: 0;
+  font-weight: 900;
+}
+
+.img-product {
+  width: 100%;
+}
+
+.btnBuy {
+  margin-top: 5px;
+  z-index: 20;
+}
+
+.img-details > div > img {
+  z-index: 200;
+  margin: 10px;
+  transition: .5s;
+  box-shadow:  0 0 0 #CD4040;
+}
+.img-details > div > img:hover {
+  border-radius: 15px;
+}
+
+.bio-details {
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding-top: 30px;
+}
+
+.nameProduct{
+  margin: 0 0 5px 0;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  transition: .5s;
+}
+.nameProductDetails{
+  color: #CD4040;
+}
+
+
+#imageProductCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.listOfProdcutsEmpty {
+  color: #CD4040;
+  height: 500px ;
+  font-size: 30px;
+}
+
+[type="checkbox"].filled-in:checked + span:not(.lever):after {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #CD4040 !important;
+    background-color: #CD4040 !important;
+    z-index: 0;
+}
+
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
+    background-color: #CD4040 !important;
+}
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before, [type="radio"].with-gap:checked + span:after {
+    border: 2px solid #CD4040 !important;
+}
+
+.messageLoading {
+  z-index: 5000000;
+  position: relative;
+  top: -10px;
+  left: -30px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+  border: 3px solid rgb(0, 194, 97);
+}
+
+.throughText {
+  text-decoration: line-through;
+}
+
+.throughText > span {
+  text-decoration: none;
+}
